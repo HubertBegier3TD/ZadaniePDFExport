@@ -1,0 +1,3 @@
+1. Klasa ta, jak nazwa podpowiada, odpowiada za wybieranie pliku (i jego miejsca), w którym zapiszą się nasze dane.
+2. Bo iText wymaga String.
+3. Po wywołaniu programu bez doc.close(), plik został utworzony ale jest zepsuty, niemożliwy do otwarcia. Widocznie nie skończył się proces zapisywania przez co plik nie wyszedł gotowy
